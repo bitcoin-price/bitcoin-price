@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Major Mono Display', monospace;
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-year {
+    text-align: center;
+}
+
+.year {
+    font-size: 9em;
+    color: #333333;
+}
+
+.controls {
+    margin-top: 30px;
+}
+
+#amount {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #333333;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.current-price-label {
+    font-size: 34px; /* Nastavite velikost fonta */
+    color: #333333; /* Nastavite barvo fonta */
+    margin-bottom: 10px; /* Nastavite razmik od cene */
+    font-family: 'Major Mono Display', monospace; /* Uporabite enako pisavo kot drugje na strani */
+}
