@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Price Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+</head>
+<body>
+    <div class="holder">
+        <div class="new-year">
+            <!-- Dodajanje napisa za trenutno ceno Bitcoina -->
+            <div class="current-price-label">Current Bitcoin price</div>
+            <div class="year" id="price">Loading...</div>
+            <div class="controls" id="calculator">
+                <input type="text" id="amount" placeholder="USD">
+                <button onclick="calculateBitcoin()">Convert to Bitcoin</button>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
