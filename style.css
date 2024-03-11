@@ -66,3 +66,22 @@ button:hover {
     margin-bottom: 10px; /* Nastavite razmik od cene */
     font-family: 'Major Mono Display', monospace; /* Uporabite enako pisavo kot drugje na strani */
 }
+
+@media (max-width: 768px) {
+    .year {
+        font-size: 4em; /* Manjša velikost fonta za naslov na mobilnih napravah */
+    }
+
+    .current-price-label {
+        font-size: 18px; /* Manjša velikost fonta za oznako trenutne cene */
+    }
+
+    #amount, button {
+        font-size: 14px; /* Manjša velikost fonta za vnosno polje in gumb */
+        padding: 8px; /* Manjša oblazinjenje za boljše prileganje */
+    }
+
+    #result {
+        font-size: 16px; /* Manjša velikost fonta za rezultat */
+    }
+}
