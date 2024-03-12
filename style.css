@@ -68,6 +68,15 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    body, html {
+        padding: 20px; /* Dodajte razmik od robov za celotno stran */
+    }
+
+    .holder, .new-year, .controls {
+        width: calc(100% - 40px); /* Prilagodite širino, da upoštevate padding */
+        box-sizing: border-box; /* Da padding ne vpliva na skupno širino */
+    }
+
     .year {
         font-size: 4em; /* Manjša velikost fonta za naslov na mobilnih napravah */
     }
